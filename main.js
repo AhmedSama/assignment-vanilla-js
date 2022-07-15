@@ -12,16 +12,16 @@ const shareData = {
     try {
       await navigator.share(shareData)
       Toastify({
-        text: "Yey share me!",
+        text: "Yey you want to share me thanks",
         style: {
-          background: "linear-gradient(to right, #00b09b, #00b09b)",
+          background: "#00b09b",
         }
       }).showToast()
     } catch(err) {
         Toastify({
             text: "failed to share",
             style: {
-              background: "linear-gradient(to right, #00b09b, #96c93d)",
+              background: "#00b09b",
             }
           }).showToast();
     }
